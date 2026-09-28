@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "sky_village_islands"
+version = "${version}"
+displayName = "Sky Village Islands"
+authors = "slickson"
+description = '''
+Adds dynamic sky villages built on islands that are connected by bridges
+'''
+#logoFile = ""
+
+[[dependencies.sky_village_islands]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.sky_village_islands]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.sky_village_islands]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.sky_village_islands]]
+modId = "lithostitched"
+versionRange = "[1.4.10,)"
+mandatory = true
+ordering = "AFTER"
+side = "BOTH"

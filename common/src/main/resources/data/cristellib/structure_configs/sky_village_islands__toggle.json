@@ -1,0 +1,15 @@
+{
+  "name": "sky_village_islands_toggle",
+  "subPath": "Sky Village-Islands",
+  "header": "Config file which lets you disable the structures you don't like!",
+  "config_type": "ENABLE_DISABLE",
+  "comments": {  },
+  "structure_sets": [
+    {
+      "modid": "sky_village_islands",
+      "structure_set": [
+        "sky_village_islands:villages_witch_hat"
+      ]
+    }
+  ]
+}

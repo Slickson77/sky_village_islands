@@ -1,0 +1,28 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "morevillagers"
+      }
+    ]
+  },
+  "template_pools": "sky_village_islands:villages/witch_hat/islands",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/integration/morevillagers/oceanographer",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    }
+  ]
+}

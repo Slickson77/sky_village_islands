@@ -1,0 +1,82 @@
+{
+  "name": "sky_village_islands:villages/witch_hat/buildings/square9",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/buildings/square9_bee",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_brewing_stand",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_farm1",
+        "processors": "minecraft:farm_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_farm2",
+        "processors": "minecraft:farm_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_fisherman",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_house1",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_house2",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square9_library",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
