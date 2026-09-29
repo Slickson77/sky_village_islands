@@ -19,7 +19,7 @@
       "net.slickson.fabric.SkyVillageIslandsFabric"
     ],
     "client": [
-      "net.slickson.fabric.client.ExampleModFabricClient"
+      "net.slickson.fabric.client.SkyVillageIslandsFabricClient"
     ]
   },
   "mixins": [
