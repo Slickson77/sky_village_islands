@@ -24,6 +24,28 @@ configurations {
     }
 }
 
+repositories {
+    maven {
+        url = uri("https://jitpack.io/")
+        content {
+            includeGroup("com.github.Chocohead")
+        }
+    }
+
+    maven {
+        name = "Greenhouse Maven"
+        url = uri("https://maven.greenhouseteam.dev/releases/")
+    }
+    maven {
+        url = uri("https://mvn.devos.one/releases/") // Porting Lib
+    }
+    maven {
+        url = uri("https://maven.jamieswhiteshirt.com/libs-release") // Reach Entity Attributes (needed by Porting Lib)
+        content { includeGroup("com.jamieswhiteshirt") }
+    }
+
+}
+
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
 
@@ -35,6 +57,21 @@ dependencies {
 
     // Lithostitched
     modImplementation("maven.modrinth:XaDC71GB:1.4.11-fabric-1.20")
+
+    //more villagers and Cloth
+    modImplementation("curse.maven:more-villagers-fabric-486080:4857288")
+    modImplementation("curse.maven:cloth-config-348521:5729104")
+
+    //Farmer's Delight Refabricated
+
+    //modImplementation("vectorwing:FarmersDelight:1.20.1")
+            //{exclude(group = "net.fabricmc")}
+
+    //modImplementation("io.github.fabricators_of_create.Porting-Lib:config:<version>")
+    //modImplementation("com.github.Chocohead:Fabric-ASM:v2.3")
+    //modImplementation("curse.maven:farmers-delight-refabricated-993166:8774497")
+
+
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
