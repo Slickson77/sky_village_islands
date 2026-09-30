@@ -1,0 +1,28 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "waystones"
+      }
+    ]
+  },
+  "template_pools": "sky_village_islands:villages/witch_hat/buildings/square5",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:guaranteed",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/buildings/integration/waystones/square5_stone",
+          "processors": "minecraft:empty"
+        },
+        "count": 1
+      }
+    }
+  ]
+}

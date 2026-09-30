@@ -1,0 +1,232 @@
+{
+  "name": "sky_village_islands:villages/witch_hat/islands",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/chalice",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/sky_tower",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/cross1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/cross2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:guaranteed",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/cross3",
+          "processors": "minecraft:empty"
+        },
+        "count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:guaranteed",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/cross4",
+          "processors": "minecraft:empty"
+        },
+        "count": 1
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/end2",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/end7",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/geode",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/islands/sword",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/t1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/t2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/t3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/turn1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/turn2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/turn3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/islands/turn4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

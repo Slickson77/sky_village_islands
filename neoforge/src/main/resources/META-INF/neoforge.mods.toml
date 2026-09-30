@@ -28,11 +28,11 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sky_village_islands]]
-modId = "architectury"
-type = "required"
-versionRange = "[13.0.11,)"
-ordering = "AFTER"
-side = "BOTH"
+modId= "lithostitched"
+mandatory=true
+versionRange="[1.5,)"
+ordering="NONE"
+side="BOTH"
 
 [[mixins]]
 config = "sky_village_islands.mixins.json"

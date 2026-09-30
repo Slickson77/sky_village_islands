@@ -1,0 +1,248 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.20
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.12
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_andesite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:stone_brick_stairs"
+            },
+            "probability": 0.2
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:stone_brick_stairs"
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_brick_stairs"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "lithostitched:apply_random",
+      "mode": "per_piece",
+      "processor_lists": [
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_black"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_blue"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_brown"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_cyan"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_gray"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_green"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_light_blue"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_light_gray"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_lime"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_magenta"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_orange"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_pink"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_purple"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_red"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_white"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "mna:decoration/runic_glass_pane": "mna:decoration/runic_glass_pane_yellow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

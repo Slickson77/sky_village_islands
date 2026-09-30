@@ -1,0 +1,168 @@
+{
+  "name": "sky_village_islands:villages/witch_hat/buildings/square11",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_butcher_bunny",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_butcher_cow",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_cartographer",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_cleric",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_enchanting",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_fisherman",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_fletcher",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_house1",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_house2",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_house3",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_house4",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_leatherworker",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_library",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_mason",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_shepard",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_toolsmith",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_workshop",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square11_workshop2",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

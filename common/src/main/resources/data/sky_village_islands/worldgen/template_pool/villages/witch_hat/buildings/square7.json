@@ -1,0 +1,143 @@
+{
+  "name": "sky_village_islands:villages/witch_hat/buildings/square7",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/buildings/square7_allay",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/buildings/square7_coco_beans",
+          "processors": "sky_village_islands:village_witch_hat_houses"
+        },
+        "condition": {
+          "type": "lithostitched:all_of",
+          "conditions": [
+            {
+              "type": "lithostitched:in_biome",
+              "biomes": "#minecraft:is_jungle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_farm1",
+        "processors": "minecraft:farm_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_house1",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_house2",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_lava",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_library",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_mushrooms",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_potion_hut",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_pumpkin",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_stockpile_iron",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/square7_sugarcane",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "sky_village_islands:villages/witch_hat/buildings/square7_torchflower",
+          "processors": "minecraft:empty"
+        },
+        "limit": 1
+      }
+    }
+  ]
+}

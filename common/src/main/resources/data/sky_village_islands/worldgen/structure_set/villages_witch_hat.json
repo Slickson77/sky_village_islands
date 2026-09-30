@@ -1,0 +1,25 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spread_type": "linear",
+		"salt": 8762187,
+		"separation": 100,
+		"spacing": 120,
+		"frequency_reduction_method": "default",
+		"frequency": 0.6
+	},
+	"structures": [
+		{
+			"structure": "sky_village_islands:villages/witch_hat_small",
+			"weight": 1
+		},
+		{
+			"structure": "sky_village_islands:villages/witch_hat",
+			"weight": 1
+		},
+		{
+			"structure": "sky_village_islands:villages/witch_hat_large",
+			"weight": 1
+		}
+	]
+}
