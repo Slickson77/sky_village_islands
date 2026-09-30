@@ -28,13 +28,6 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sky_village_islands]]
-modId = "architectury"
-mandatory = true
-versionRange = "[9.2.14,)"
-ordering = "AFTER"
-side = "BOTH"
-
-[[dependencies.sky_village_islands]]
 modId = "lithostitched"
 versionRange = "[1.4.10,)"
 mandatory = true
