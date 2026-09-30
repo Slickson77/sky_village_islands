@@ -12,7 +12,7 @@ import net.sky_village_islands.SkyVillageIslands;
 public final class SkyVillageIslandsForge {
     public SkyVillageIslandsForge() {
         // Submit our event bus to let Architectury API register our content on the right time.
-        EventBuses.registerModEventBus(SkyVillageIslands.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
+        //EventBuses.registerModEventBus(SkyVillageIslands.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
 
         // Run our common setup.
         SkyVillageIslands.init();
