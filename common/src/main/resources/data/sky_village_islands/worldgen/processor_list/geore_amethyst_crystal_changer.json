@@ -5,7 +5,7 @@
       "mode": "per_piece",
       "processor_lists": [
         {
-          "weight": 10,
+          "weight": 100,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -17,7 +17,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 100,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 100,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 75,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 50,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 45,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -77,7 +77,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 45,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
@@ -89,7 +89,7 @@
           ]
         },
         {
-          "weight": 10,
+          "weight": 50,
           "data": [
             {
               "processor_type": "lithostitched:block_swap",
