@@ -1,16 +1,11 @@
 {
   "type": "lithostitched:set_pool_element_processors",
   "predicate": {
-    "type": "lithostitched:all_of",
-    "predicates": [
-      {
-        "type": "lithostitched:mod_loaded",
-        "mod_id": "geore"
-      }
-    ]
+    "type": "lithostitched:mod_loaded",
+    "mod_id": "geore"
   },
-  "template_pool": "sky_village_islands:villages/witch_hat/islands",
-  "locations": ["sky_village_islands:villages/witch_hat/islands/geode"],
+  "template_pools": "sky_village_islands:villages/witch_hat/islands",
+  "locations": "sky_village_islands:villages/witch_hat/islands/geode",
   "processor_list": "sky_village_islands:geore_amethyst_crystal_changer",
   "append": false
 }

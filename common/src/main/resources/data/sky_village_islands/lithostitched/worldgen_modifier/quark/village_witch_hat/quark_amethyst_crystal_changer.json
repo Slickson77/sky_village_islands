@@ -1,16 +1,16 @@
 {
   "type": "lithostitched:set_pool_element_processors",
   "predicate": {
-    "type": "lithostitched:all_of",
-    "predicates": [
-      {
-        "type": "lithostitched:mod_loaded",
-        "mod_id": "quark"
-      }
-    ]
+    "type": "lithostitched:mod_loaded",
+    "mod_id": "quark"
   },
-  "template_pool": "sky_village_islands:villages/witch_hat/start_pool",
-  "locations": ["sky_village_islands:villages/witch_hat/centers/broken_amethyst","sky_village_islands:villages/witch_hat/centers/amethyst1","sky_village_islands:villages/witch_hat/centers/amethyst2","sky_village_islands:villages/witch_hat/centers/amethyst3"],
+  "template_pools": "sky_village_islands:villages/witch_hat/start_pool",
+  "locations": [
+    "sky_village_islands:villages/witch_hat/centers/broken_amethyst",
+    "sky_village_islands:villages/witch_hat/centers/amethyst1",
+    "sky_village_islands:villages/witch_hat/centers/amethyst2",
+    "sky_village_islands:villages/witch_hat/centers/amethyst3"
+  ],
   "processor_list": "sky_village_islands:quark_amethyst_crystal_changer",
   "append": false
 }
