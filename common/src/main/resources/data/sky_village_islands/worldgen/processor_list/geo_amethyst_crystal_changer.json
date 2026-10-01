@@ -1,0 +1,130 @@
+{
+  "processors": [
+    {
+      "processor_type": "lithostitched:apply_random",
+      "mode": "per_piece",
+      "processor_lists": [
+        {
+          "weight": 100,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "minecraft:amethyst_block",
+                "minecraft:budding_amethyst": "minecraft:budding_amethyst"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:coal_block",
+                "minecraft:budding_amethyst": "geore:budding_coal"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:copper_block",
+                "minecraft:budding_amethyst": "geore:budding_copper"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 75,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:iron_block",
+                "minecraft:budding_amethyst": "geore:budding_iron"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:gold_block",
+                "minecraft:budding_amethyst": "geore:budding_gold"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 45,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:emerald_block",
+                "minecraft:budding_amethyst": "geore:budding_emerald"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 45,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:lapis_block",
+                "minecraft:budding_amethyst": "geore:budding_lapis"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 50,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:redstone_block",
+                "minecraft:budding_amethyst": "geore:budding_redstone"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:diamond_block",
+                "minecraft:budding_amethyst": "geore:budding_diamond"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:amethyst_block": "geore:quartz_block",
+                "minecraft:budding_amethyst": "geore:budding_quartz"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
