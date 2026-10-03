@@ -1,11 +1,10 @@
 {
-  "name": "sky_village_islands:villages/witch_hat/lights",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 10,
+      "weight": 1,
       "element": {
-        "location": "sky_village_islands:villages/witch_hat/lights/lamppost",
+        "location": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_yellow",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
