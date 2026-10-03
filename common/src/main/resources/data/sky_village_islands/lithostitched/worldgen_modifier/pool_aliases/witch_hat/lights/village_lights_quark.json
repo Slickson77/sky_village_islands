@@ -1,0 +1,75 @@
+{
+  "type": "lithostitched:set_pool_aliases",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "quark"
+      }
+    ]
+  },
+  "priority": 1,
+  "structures": [
+    "sky_village_islands:villages/witch_hat",
+    "sky_village_islands:villages/witch_hat_small",
+    "sky_village_islands:villages/witch_hat_large"
+  ],
+  "pool_aliases": [
+    {
+      "type": "minecraft:random",
+      "alias": "sky_village_islands:villages/witch_hat/lights",
+      "targets": [
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_black"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_blue"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_green"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_indigo"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_orange"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_red"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_violet"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_white"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_corundum_lamp_yellow"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_paper_lantern"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_paper_lantern_decorated"
+        },
+        {
+          "weight": 1,
+          "data": "sky_village_islands:villages/witch_hat/lights/quark/lamppost_stone_block_lamp"
+        }
+      ]
+    }
+  ],
+  "append": true
+}
