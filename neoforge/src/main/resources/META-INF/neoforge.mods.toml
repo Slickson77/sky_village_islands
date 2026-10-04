@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "sky_village_islands"
 version = "${version}"
 displayName = "Sky Village Islands"
-authors = "Me!"
+authors = "Slickson"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A new take on sky villages - Village generation in the sky with houses and structures dynamically generated on islands connected by bridges.
 '''
 #logoFile = ""
 

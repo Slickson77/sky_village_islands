@@ -47,7 +47,17 @@ dependencies {
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
 
-    //modImplementation "curse.maven:lithostitched-936015:8944659"
+
+    //jar for lithostitch because of some apollib requirement that doesn't exist anywhere
+    implementation files("jars/lithostitched-1.8.0-neoforge-21.1.jar")
+
+    //quark and dependants zeta and biolith
+    modImplementation "curse.maven:quark-243121:8895753"
+    modImplementation "curse.maven:zeta-968868:7980010"
+    modImplementation("curse.maven:biolith-852512:8435635")
+
+
+
 }
 
 processResources {
