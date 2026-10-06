@@ -1,0 +1,33 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "supplementaries"
+      }
+    ]
+  },
+  "template_pools": "sky_village_islands:villages/witch_hat/buildings/square9",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/integration/supplementaries/square9_fisherman",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "sky_village_islands:villages/witch_hat/buildings/integration/supplementaries/square9_house",
+        "processors": "sky_village_islands:village_witch_hat_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
