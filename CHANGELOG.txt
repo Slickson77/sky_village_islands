@@ -1,3 +1,8 @@
+1.20.1 - 01.02.00
+fixed processor list for glass pane switching
+added quark framed glass pane processor
+
+
 1.20.1 - 01.01.00
 Removed Architectury API requirement
 Added supplementaries compatibility
