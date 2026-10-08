@@ -1,0 +1,224 @@
+{
+  "type": "lithostitched:add_processor_list_processors",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "quark"
+      }
+    ]
+  },
+  "priority": 1,
+  "processor_lists": "sky_village_islands:village_witch_hat_houses",
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": []
+    },
+    {
+      "processor_type": "lithostitched:apply_random",
+      "mode": "per_piece",
+      "processor_lists": [
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:dirty_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:white_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:light_gray_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:gray_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:black_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:brown_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:red_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:orange_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:yellow_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:lime_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:green_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:cyan_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:light_blue_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:blue_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:purple_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:magenta_framed_glass_pane"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "data": [
+            {
+              "processor_type": "lithostitched:block_swap",
+              "blocks": {
+                "minecraft:glass_pane": "quark:pink_framed_glass_pane"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

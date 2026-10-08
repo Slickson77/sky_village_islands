@@ -1,5 +1,5 @@
 {
-	"type": "lithostitched:jigsaw",
+	"type": "minecraft:jigsaw",
 	"biomes": "#minecraft:is_overworld",
 	"step": "surface_structures",
 	"terrain_adaptation": "none",
