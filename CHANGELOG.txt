@@ -1,3 +1,7 @@
+01.02.00
+fixed village hat house processor
+added quark and minecraft window pane processor for witch hat houses (variety is the spice of life)
+
 01.01.00
 -Added a bunch of new lamppost structures to light up the village
 -Added alias functionality to the villages so that each village will have only one type of light used when generated.
