@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "sky_village_islands:witch_hat",
-    "sky_village_islands:witch_hat_small",
-    "sky_village_islands:witch_hat_large"
+    { "id": "sky_village_islands:witch_hat", "required": false },
+    { "id": "sky_village_islands:witch_hat_small", "required": false },
+    { "id": "sky_village_islands:witch_hat_large", "required": false }
   ]
 }

@@ -1,6 +1,8 @@
 01.02.00
 fixed village hat house processor
 added quark and minecraft window pane processor for witch hat houses (variety is the spice of life)
+refactored supplementaries tags so they don't fail in 26.1 and 26.2
+added neoforge logo for ingame mod list
 
 01.01.00
 -Added a bunch of new lamppost structures to light up the village

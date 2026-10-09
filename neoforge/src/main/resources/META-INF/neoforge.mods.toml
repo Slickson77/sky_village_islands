@@ -11,7 +11,8 @@ authors = "Slickson"
 description = '''
 A new take on sky villages - Village generation in the sky with houses and structures dynamically generated on islands connected by bridges.
 '''
-#logoFile = ""
+logoFile = "icon.png"
+iconFile = "icon.png"
 
 [[dependencies.sky_village_islands]]
 modId = "neoforge"
